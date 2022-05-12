@@ -9,8 +9,7 @@ class Solution:
         for perm in permutations_str:
             ans.append(perm)
             
-        setter=set(ans)
-        ansr=list(setter)
-        return ansr
+       
+        return list(set(ans))
 
         
