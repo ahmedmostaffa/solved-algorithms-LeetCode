@@ -14,7 +14,7 @@ var firstMissingPositive = function(nums) {
             ans+=1
         }
         
-        else if(nums[j]>ans){
+        else if(ans<nums[j]){
             return ans
         
         }
