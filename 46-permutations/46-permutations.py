@@ -10,7 +10,7 @@ class Solution:
         for perm in permutations_str:
             ans.append(perm)
             
-        return ans
+        return permutations_str
                     
  
         
