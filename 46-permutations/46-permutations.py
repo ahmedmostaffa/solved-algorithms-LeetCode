@@ -7,9 +7,7 @@ class Solution:
      
         
         permutations_str = list(permutations(nums))
-        for perm in permutations_str:
-            ans.append(perm)
-            
+      
         return permutations_str
                     
  
