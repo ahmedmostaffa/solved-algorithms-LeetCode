@@ -10,6 +10,6 @@ class Solution {
                 sum -= nums[i++];
             }
         }
-        return min == Integer.MAX_VALUE ? 0 : min;
+        return min == Integer.MAX_VALUE ;
     }
 }
